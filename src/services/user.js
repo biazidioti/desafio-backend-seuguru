@@ -1,8 +1,16 @@
 const userModel = require('../models/user');
 
-const createUser = async (username, email, password) => {
-  const users = await userModel.createUser(username, email, password);
-  return users;
+const createUser = async (name, age, address, number, zipcode, email, password ) => {
+  const user = await userModel.createUser(name, age, address, number, zipcode, email, password );
+  return user;
 };
 
-module.exports = { createUser };
+const getUserById = async (id) => {
+  const { _id, age } = await userModel.userById(id);
+  return { _id, age };
+};
+
+module.exports = { 
+  createUser,
+  getUserById
+ };

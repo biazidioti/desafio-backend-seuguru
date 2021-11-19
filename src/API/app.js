@@ -5,10 +5,8 @@ const User = require('../controllers/user');
 const app = express();
 app.use(bodyParser.json());
 
-app.get('/', (_request, response) => {
-    response.send();
-});
+app.get('/users/:id', User.getUserById);
 
-app.post('/', User.createUser);
+app.post('/users', User.createUser);
 
 module.exports = app;
