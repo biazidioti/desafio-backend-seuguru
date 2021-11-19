@@ -5,7 +5,9 @@ const OPTIONS = {
   useUnifiedTopology: true,
 };
 
-const MONGO_DB_URL = 'mongodb://localhost:3000/';
+// 'mongodb://127.0.0.1:27017'
+// http://localhost:3000/
+const MONGO_DB_URL = 'http://mongodb://127.0.0.1:27017' ;
 const DB_NAME = 'seuGuru';
 
 let db = null;
