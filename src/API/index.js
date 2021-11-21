@@ -1,3 +1,4 @@
+const { string } = require('joi');
 const app = require('../API/app');
 require('dotenv').config();
 
