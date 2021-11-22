@@ -11,11 +11,10 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento da apl
 ## Antes de começar:
 
 1. Clone o repositório
-
-`git clone https://github.com/biazidioti/desafio-backend-seuguru.git`
+    `git clone https://github.com/biazidioti/desafio-backend-seuguru.git`
 
     - Entre na pasta do repositório que você acabou de clonar:
-    - `cd desafio-backend-seuguru`
+    `cd desafio-backend-seuguru`
 
 2. Instale as dependências
 
@@ -30,4 +29,4 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento da apl
 
 Para executar os testes localmente, digite no terminal o comando `npm test`.
 
-# Avisos finais
+# Considerações finais
