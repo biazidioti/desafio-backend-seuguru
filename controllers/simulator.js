@@ -1,5 +1,7 @@
 const simulatorService = require('../services/simulator');
 
-module.exports = simulatorCal = () => {
+const simulatorCal = () => {
 
 };
+
+module.exports = { simulatorCal };
