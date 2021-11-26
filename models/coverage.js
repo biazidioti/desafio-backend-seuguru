@@ -1,18 +1,19 @@
 module.exports = (sequelize, DataTypes) => {
-  const Coverages = sequelize.define('Coverages', 
+  const Coverage = sequelize.define('Coverage', 
   {
     id: { type: DataTypes.INTEGER, primaryKey: true },
     seguro_id: { type: DataTypes.INTEGER, foreignKey: true },
     coverageName: DataTypes.STRING,
+    fator: DataTypes.STRING,
   },
   {
     timestamps: false,
     tableName: 'Coverages',
   });
 
-  Coverages.associate = (models) => {
-    Coverages.belongsTo(models.Insurances, { as: 'insurances', foreignKey: 'seguro_id' });
+  Coverage.associate = (models) => {
+    Coverage.belongsTo(models.Insurance, { as: 'insurances', foreignKey: 'seguro_id' });
   };
 
-  return Coverages;
+  return Coverage;
 };
