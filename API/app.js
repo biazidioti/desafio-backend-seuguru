@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const User = require('../controllers/user');
-// const Simulator = require('../controllers/simulator');
+const Simulator = require('../controllers/simulator');
 const Insurance = require('../controllers/insurance');
 const Coverage = require('../controllers/coverage');
 
@@ -21,6 +21,6 @@ app.post('/coverage', Coverage.createCoverage);
 app.get('/coverage', Coverage.getCoverage);
 
 // Criar um endpoint para cotação de seguros.
-// app.post('/simulator', Simulator.simulatorCal)
+app.post('/simulator', Simulator.simulatorCal)
 
 module.exports = app;
