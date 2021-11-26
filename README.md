@@ -26,9 +26,11 @@ Fazer requisições para API com o ORM podendo criar e listar usuários, seguros
 
 ## Conexão com o Banco de dados
 
+Para iniciar a conexão com o bando de dados, coloque no arquivo .env.example o usuário e senha do MySQL (MYSQL_USER, MYSQL_PASSWORD) e renomeieo o nome do arquivo para .env e pronto.
+
 1. Para conectar o banco de dados e popular as tabelas, use o seguinte comando:
 
-`npm start:db`
+`npm run start:db`
 
 2. Inicie a aplicação:
 
