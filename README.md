@@ -10,7 +10,7 @@ Criar e associar tabelas usando models do sequelize
 Construir endpoints para consumir os models que criar
 Fazer requisições para API com o ORM podendo criar e listar usuários, seguros, coberturas e fazer a simulacção de seguro.
 
-# Instruções para iniciar a aplicação
+# Instruções para iniciar a aplicação :star2:
 
 ## Antes de começar:
 
@@ -26,7 +26,7 @@ Fazer requisições para API com o ORM podendo criar e listar usuários, seguros
 
 ## Conexão com o Banco de dados
 
-Para iniciar a conexão com o bando de dados, coloque no arquivo .env.example o usuário e senha do MySQL (MYSQL_USER, MYSQL_PASSWORD) e renomeieo o nome do arquivo para .env e pronto.
+Para iniciar a conexão com o bando de dados, coloque no arquivo .env.example o usuário e senha do MySQL (MYSQL_USER, MYSQL_PASSWORD) e renomeie o nome do arquivo para .env e pronto.
 
 1. Para conectar o banco de dados e popular as tabelas, use o seguinte comando:
 
@@ -36,7 +36,7 @@ Para iniciar a conexão com o bando de dados, coloque no arquivo .env.example o 
 
 `npm start`
 
-Pronto!!! clap :clap: As requisições já podem ser feitas.
+Pronto!!! clap :clap: As requisições já podem ser feitas usando sua ferramenta de preferência.
 
 # Considerações finais
 
@@ -50,4 +50,4 @@ https://github.com/seuguru/vaga-backend
 
 # Contato
 
-:email: biazidioti@gmail.com 
+:email: biazidioti@gmail.com :alien:
