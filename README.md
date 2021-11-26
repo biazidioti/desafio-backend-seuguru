@@ -1,8 +1,8 @@
-# Boas Vindas ao repositório Simulador de Seguro
+# Boas Vindas ao repositório Simulador de Seguro :sparkler:
 
-Aqui você vai encontrar os detalhes de como iniciar a aplicação a partir desse repositório. 🚀
+Aqui você vai encontrar os detalhes de como iniciar a aplicação a partir desse repositório. 🚀 :rocket: 
 
-# Habilidades
+# Habilidades :+1:
 
 Nesse projeto, construí um back-end usando ORM com o pacote sequelize do npm, capaz de:
 
@@ -24,11 +24,28 @@ Fazer requisições para API com o ORM podendo criar e listar usuários, seguros
 
     - `npm install`
 
-## Conexão com o Banco
+## Conexão com o Banco de dados
 
+1. Para conectar o banco de dados e popular as tabelas, use o seguinte comando:
+
+`npm start:db`
+
+2. Inicie a aplicação:
+
+`npm start`
+
+Pronto!!! clap :clap: As requisições já podem ser feitas.
 
 # Considerações finais
 
 Referências:
+
 https://sequelize.org/master/index.html
 https://blog.bitsrc.io/javascript-why-named-arguments-are-better-than-positional-arguments-9b15ab3155ef
+
+Link do desafio:
+https://github.com/seuguru/vaga-backend
+
+# Contato
+
+:email: biazidioti@gmail.com 
