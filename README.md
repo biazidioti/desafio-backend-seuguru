@@ -36,7 +36,7 @@ Para iniciar a conexão com o bando de dados, coloque no arquivo .env.example o 
 
 `npm start`
 
-Pronto!!! clap :clap: As requisições já podem ser feitas usando sua ferramenta de preferência.
+Pronto!!! :clap: As requisições já podem ser feitas usando sua ferramenta de preferência, como ThunderClient, ou acessar pela URL do navegar na porta 3000.
 
 # Considerações finais
 
@@ -45,9 +45,8 @@ Referências:
 https://sequelize.org/master/index.html
 https://blog.bitsrc.io/javascript-why-named-arguments-are-better-than-positional-arguments-9b15ab3155ef
 
-Link do desafio:
-https://github.com/seuguru/vaga-backend
 
 # Contato
 
 :email: biazidioti@gmail.com :alien:
+:twitter: https://twitter.com/BeatrizZidioti
