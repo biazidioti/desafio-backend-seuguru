@@ -49,4 +49,4 @@ https://blog.bitsrc.io/javascript-why-named-arguments-are-better-than-positional
 # Contato
 
 :email: biazidioti@gmail.com :alien:
-:twitter: https://twitter.com/BeatrizZidioti
+https://twitter.com/BeatrizZidioti
